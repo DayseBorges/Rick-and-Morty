@@ -1,0 +1,22 @@
+.navBar {
+    /* background-color: rgba(23, 23, 50, 0.849); */
+    background-image: url(../imagenes/nicholas-cole-jordan-flgtz-rickmorty-panorama-watermarked.jpg);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 107px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
