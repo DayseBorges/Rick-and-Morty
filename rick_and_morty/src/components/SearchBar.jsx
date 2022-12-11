@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import { getCharacters } from '../redux/actions';
 
 const SearchBar = (props) => {
+   
+
    const [id, setId] = useState ('')
 
    const handleChange = ({target}) => {
@@ -12,9 +14,20 @@ const SearchBar = (props) => {
 
    const handleSubmit = (event) => {
       event.preventDefault()
-      props.getCharacters(
-        ...id
-      )
+   }
+
+   const getCharactersID = () => {
+      return () => { 
+             fetch(`https://rickandmortyapi.com/api/character/${id}`)
+               .then((response) => response.json())
+               .then((data) => {
+              if (data.name) {
+                 setId(...id, data);
+              } else {
+                 window.alert('No hay personajes con ese ID');
+              }
+           });
+         } 
    }
 
    return (
@@ -28,7 +41,7 @@ const SearchBar = (props) => {
             <button 
             type="submit"
             className={styles.boton} 
-            >Agregar Personage</button>
+            onClick={getCharactersID}>Agregar Personage</button>
          </form>
       </div>
    );
