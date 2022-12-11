@@ -7,15 +7,16 @@ import SearchBar from './components/SearchBar'
 
 
 
-function App () {
+
+function App (props) {
 
   return (
     <div className='App' style={{ padding: '25px' }}>
-      <NavBar/>
+      <NavBar />
       <Routes>
         <Route exact path = '/' element={<Home />} />
         <Route exact path = '/form' element={<Form />} /> 
-        <Route exact path = '/search' element={<SearchBar />} />   
+        <Route exact path = '/search' element={<SearchBar onSearch={props.onSearch} />} />   
       </Routes>
     </div>
   )

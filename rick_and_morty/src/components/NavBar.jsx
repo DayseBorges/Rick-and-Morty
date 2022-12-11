@@ -15,8 +15,8 @@ class NavBar extends React.Component{
       <div className={styles.navBar}>
         <div className={styles.itens}>
           <Link className={styles.links} to={'/'}><p>Home</p></Link>
-          <Link className={styles.links} to={'/form'}><p>Crea tu Personaje</p></Link>
           <Link className={styles.links} to={'/search'}><p>Buscar Personaje</p></Link>
+          <Link className={styles.links} to={'/form'}><p>Crea tu Personaje</p></Link>
       </div>
       </div>
     )
