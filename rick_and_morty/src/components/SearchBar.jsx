@@ -11,7 +11,6 @@ const SearchBar = (props) => {
    }
 
 
-
    const handleSubmit = (event) => {
          event.preventDefault()
          
@@ -22,7 +21,7 @@ const SearchBar = (props) => {
       <div>
          <form onSubmit={handleSubmit}>
             <input 
-               className={styles.imput} 
+               className={styles.input} 
                type='search' 
                id=''   
                onChange={handleChange}/>

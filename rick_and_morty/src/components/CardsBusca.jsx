@@ -1,21 +1,22 @@
-import Card from './Card';
-import styles from './Cards.module.css'
+import Card from './Card/Card';
+import styles from './Cards/Cards.module.css'
 
 export default function CardsBusca(props) {
    const { charactersId } = props;
    return (
    <div className={styles.cards}>
       {
-        charactersId.map(({ name, species, gender, image }, index) => {
+        charactersId.map(({ name, species, gender, image, id}) => {
           return <Card
-              key={index}
               name={name}
-              species={species}
-              gender={gender}
+              // species={species}
+              // gender={gender}
               image={image}
+              key={id}
+              id={id}
             />
           })
         }
    </div>
-   )
+  )
 }

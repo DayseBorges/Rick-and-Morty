@@ -1,0 +1,66 @@
+.divCard{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #d5d5d5e0;
+    border: none;
+    position: relative;
+    box-shadow:  0px 0px 10px #67e44d, 0px 0px 10px #67e44d, 0 0 10px #67e44d;
+    border-radius: 1000px;
+    margin-top: 40px;
+}
+
+.img {
+    border-radius: 1000px; 
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    margin-bottom: -6px;
+    margin-left: 15%;
+    position: relative;
+    padding: 1px 6px;
+    height: 40px;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    background-color: #43cf27;
+    border-radius: 20px 20px 80px 80px;
+}
+
+.name:hover {
+    text-shadow: 0px 0px 10px #043c72, 0px 10px 10px #043c72, 0 0 10px #043c72;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+/* .button{
+    display: flex;
+    margin-left: 275px;
+    justify-content: end;
+    align-items: flex-end;
+    background-color: transparent;
+    position: absolute;
+   } */
+
+
+
+/* .characters{
+    width: 300px;
+    height: 35px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content:space-around;
+    position: absolute;
+    background-color: rgba(71, 71, 71, 0.747);
+    margin-top: 265px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+} */
+

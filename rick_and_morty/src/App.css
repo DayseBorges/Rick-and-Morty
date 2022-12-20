@@ -1,6 +1,8 @@
 .App {
    text-align: center;
-   background-image: url(./imagenes/galaxias.jpg);
+   /* background-image: url(./imagenes/galaxias.jpg); */
    overflow: hidden;
+   padding: 0%;
+   margin: 0;
 }
 

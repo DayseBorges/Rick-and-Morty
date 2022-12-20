@@ -1,8 +1,8 @@
 import React from 'react';
-import Card from './Card.jsx';
+import Card from '../Card/Card';
 import styles from './Cards.module.css'
 import { connect } from 'react-redux'
-import { getCharacters } from '../redux/actions';
+import { getCharacters } from '../../redux/actions';
 
 
 class Cards extends React.Component {
