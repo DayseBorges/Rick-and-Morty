@@ -1,6 +1,7 @@
 import styles from "./Card.module.css";
 import { deleteCharacter } from "../../redux/actions"
 import { useDispatch } from "react-redux"
+import { Link } from "react-router-dom";
 
 export default function Card({ name, species, gender, image, id}) {
 
@@ -19,8 +20,8 @@ export default function Card({ name, species, gender, image, id}) {
 
          <img src={image} alt={name} className={styles.img}/>
 
-         <div className={styles.name}>
-            <h2>{name}</h2>
+         <div >
+            <Link to={`/details/${id}`} className={styles.name}>{name}</Link>
          </div>
          
          {/* <div className={styles.characters}>

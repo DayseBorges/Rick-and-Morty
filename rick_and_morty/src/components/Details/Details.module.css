@@ -1,0 +1,103 @@
+.container {
+    background-image: url(../../imagenes/estrellas.jpg);
+    background-position:89%;
+    display: flex;
+    padding: 150px 100px 207px 150px;
+}
+
+.logo {
+    display: flex;
+    margin-top: -120px;
+    margin-right: -70px;
+    height: 100px;
+    background-position:89%;
+}
+
+.img {
+    position: relative;
+    inset-inline-start: 150px;
+    border-radius: 1000px;
+    height: 80%;
+    width: 300px;
+    border: 2px solid white;
+}
+
+.details {
+    margin-top: 25px;
+    width: 600px;
+    height: 245px max-content;
+    background: linear-gradient(#ebffe8c6, #25de08b5);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.name {
+    font-size: 38px;
+    letter-spacing: 5px;
+    font-family:monospace;
+    text-transform: uppercase;
+    color: #394592;
+    font-weight: 10px;
+    margin-bottom: 0;
+    margin-left: 150px;
+    text-shadow: 0px 0px 10px #7e9aff, 0px 0px 5px #0098a3, 0 0 5px #23d100;
+}
+
+.containerBox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    padding: 22px;
+    margin-top: 20px;  
+    gap: 10px;
+}
+
+.data {
+    word-spacing: 25px;
+    width: 115px;
+    height: 78px;
+    color: rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.137);
+    letter-spacing: 3.5px;
+    font-family: monospace;
+    font-size: 19px;
+    border-radius: 20px 20px 35px 35px;
+    box-shadow:  0px 0px 0px, 0px 0px 0px , 5px 5px 5px #468f3d;
+    
+}
+
+.a {
+    color: #343d79;
+    font-weight:bolder;
+    font-size: 21px;
+    text-shadow: 0px 0px 10px #7e9aff, 0px 0px 5px #0098a3, 0 0 5px #23d100;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    
+}
+
+.boton {
+    
+    position: absolute;
+    padding: 1px 20px;
+    color: #c6f799;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.5s;
+    background-color: #a945c700;
+    border: none;
+    box-shadow: 0px 0px 10px #67e44d, 0px 0px 0px #67e44d, 0 0 10px #67e44d;
+    margin-top:340px;
+    margin-left: -400px;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    font-size: 35px;
+    cursor: pointer;
+    margin-left: -405px;
+    margin-top: 338px;
+}

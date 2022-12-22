@@ -1,0 +1,31 @@
+.container {
+    display:flexbox;
+    margin-left:200px;
+    margin-right: -400px;
+    gap: 5px;
+    
+}
+
+.input {
+    border-radius: 10px;
+    padding: 8px;
+    border: 2px solid rgba(23, 23, 50, 0);
+    font-family: monospace;
+    margin-bottom: 15px;
+}
+
+.boton {
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0.849);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    border: 2px solid rgba(63, 63, 87, 0);
+    background-color: rgba(191, 223, 190, 0);
+    padding-inline-start: 10px;
+}
+
+.boton:hover {
+    cursor: pointer;
+    /* font-size: 32px; */
+    /* box-shadow: 0px 0px 5px #67e44d, 0px 0px 5px #67e44d, 0 0 5px #67e44d; */
+}

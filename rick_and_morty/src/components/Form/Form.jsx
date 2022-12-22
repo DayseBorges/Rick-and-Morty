@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
 import React from "react";
-import { createCharacter } from "../redux/actions.jsx";
-import characters from "../data";
+import { createCharacter } from "../../redux/actions.jsx";
+import characters from "../../data";
 
 const Form = (props) => {
     const [form, setForm] = React.useState ({

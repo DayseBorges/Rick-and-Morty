@@ -1,9 +1,10 @@
-import { CREATE_CHARACTER, DELETE_CHARACTER, GET_CHARACTERS } from "./actions";
+import { CREATE_CHARACTER, DELETE_CHARACTER, GET_CHARACTERS, GET_DETAILS } from "./actions";
 
 const inicialState = {
     characters: [],
     myCharacters: [],
     detail: {},
+    details: [],
 }
 
 const rootReducer = ( state = inicialState, action ) => {
@@ -26,6 +27,12 @@ const rootReducer = ( state = inicialState, action ) => {
             return {
                 ...state,
                 myCharacters: [...state.myCharacters, action.payload],
+            }
+
+        case GET_DETAILS:
+            return {
+                ...state,
+                details: action.payload,
             }
     
         default:
