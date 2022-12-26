@@ -1,10 +1,10 @@
 .navBar {
     background-image: url(../../imagenes/nav.jpg);
     background-repeat: no-repeat;
-    background-size:cover; 
+    background-size:1570px; 
     border-radius: 10px;
-    padding: 25px;
-    width: 1245px;
+    padding: 20px;
+    width: 1250px;
     display: flex;
     justify-content: center;
     margin-left: 30px;
@@ -22,9 +22,9 @@
     text-shadow: 0px 0px 3px white;
     margin-right: 107px;
     text-transform: uppercase;
-    margin: 0 30px;
-    font-family: sans-serif;
-    font-size: 18px;
+    margin: 0 42px;
+    font-family: monospace;
+    font-size: 23px;
     letter-spacing: 4px;
     transition: 0.5s;
 }
@@ -32,8 +32,8 @@
 .links:hover {
     text-shadow: 0px 0px 10px #67e44d, 0px 10px 10px #67e44d, 0 0 10px #67e44d;
     transition-duration: 0.5s;
-    font-size: 19px;
+    font-size: 25px;
     padding: 8px;
     margin: 0 30px;
-
+    padding: 10px;
 }

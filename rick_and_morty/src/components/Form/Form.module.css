@@ -1,0 +1,51 @@
+.container {
+    background-image: url(../../imagenes/estrellas.jpg);
+    padding: 26px 0px 0px 0px;
+    min-height: 100vh;
+}
+
+.form {
+    margin-top: 60px;
+    display: grid;
+    gap: 40px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 165px));
+    margin-bottom: 15px;
+}
+
+.input {
+    border-radius: 50px;
+    padding: 7px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0.713);
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(11, 130, 11);
+}
+
+.input::placeholder {
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(11, 130, 11);
+}
+
+.boton {
+    padding: 1px 20px;
+    color: #c6f799;
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: 0.2s;
+    background-color: #a945c700;
+    border: none;
+    box-shadow: 0px 0px 10px #67e44d, 0px 0px 0px #67e44d, 0 0 10px #67e44d;
+    font-family: monospace;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.2s;
+}

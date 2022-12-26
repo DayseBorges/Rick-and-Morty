@@ -15,6 +15,7 @@ export default function Details() {
     }, [dispatch, id]);
 
     const myDetails = useSelector(state => state.details);
+    // const myCharac = useSelector(state => state.myCharacters);
 
     return (
         <Fragment>

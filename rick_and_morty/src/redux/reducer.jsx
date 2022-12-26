@@ -1,8 +1,9 @@
 import { CREATE_CHARACTER, DELETE_CHARACTER, GET_CHARACTERS, GET_DETAILS } from "./actions";
+import myImg from '../imagenes/Mi.jpg';
 
 const inicialState = {
     characters: [],
-    myCharacters: [],
+    myCharacters: [{image: (myImg), name: 'Dayse (Creator)'}],
     detail: {},
     details: [],
 }

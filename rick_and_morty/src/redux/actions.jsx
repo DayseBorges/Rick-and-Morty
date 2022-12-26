@@ -35,12 +35,13 @@ export const getCharacters = () => {
         try {
             let response = await axios.get(`https://rickandmortyapi.com/api/character/${id}`)
             console.log(response.data)
-            return dispatch({
-                type: 'GET_DETAILS',
+            dispatch({
+                type: GET_DETAILS,
                 payload: response.data,
             })
         } catch (error) {
-            console.log(error)
+          console.log('error')
+          window.alert('No')
       }
     }
 }
