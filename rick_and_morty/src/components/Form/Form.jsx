@@ -55,7 +55,7 @@ const Form = (props) => {
                 </select>
 
                 <select className={style.input} placeholder="Status..." name="status" value={form.status} onChange={(event) => handleChange(event)} >
-                    <option hidden selected>Species...</option> 
+                    <option hidden selected>Status...</option> 
                     <option>Alive</option>
                     <hr />
                     <option>Unknown</option>
